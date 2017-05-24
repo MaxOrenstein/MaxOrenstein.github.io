@@ -1,0 +1,175 @@
+/*This webpage was created by Max Orenstein on 5/23/17
+The Purpose of this webpage is to demonstate knowledge in HTML and CSS
+as well as showcase some of my own art work*/
+*  {
+	box-sizing: border-box;
+    /*border: 1px solid #FFF;*/
+}
+body, header, section, footer {
+	display: block;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*major secitons*/
+body {
+	margin: 0;
+	background-color: rgb(0, 0, 0);
+	background-image: url("me.JPG");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+header {
+	position: fixed;
+	color: #FFF;
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+	width: 100%;
+}
+section {
+	text-align: left;
+}
+footer {
+	color: #FFF;
+	background-color: rgb(0, 0, 0);
+	width: 100%;
+	padding: 5px;
+	padding-right: 15px;
+	/*background-image: -webkit-linear-gradient(#666CCC, #BC1324);*/
+}
+
+/*elements*/
+h1 {
+    font-size: 50px;
+}
+h4  {
+	font-size: 15px;
+	border: 2px solid white;
+	display: block;
+	text-align: right;
+}
+p  {
+	font-size: 40px;
+	color: white;
+	margin: 0
+}
+a  {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul {
+list-style: none;
+border: 2px solid white;
+margin: 0;
+
+	/*
+	position: relative;
+	justify-content: flex-end;
+	display: inline-block;
+	text-align: right;*/
+}
+li  {
+display: inline-flex;
+border: 2px solid white;
+margin: 2px 2px;
+}
+
+/*classes*/
+.page-title {
+	font-size: 3rem;
+}
+.author {
+	font-size: 1.5rem;
+}
+.gallery {
+	display: inline-flex;
+	flex-wrap: wrap;
+     margin: 100px 40px;
+     padding: 40px 40px;
+     text-align: center;
+  }
+.gallery-link {
+	font-size: 1rem;
+	margin: 0;
+}
+.installations {
+   display: inline-block;
+    padding-top: 50px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-image: url('duke.JPG');
+	background-position: center center;
+	background-size: cover;
+	border: 5px solid white;
+	text-shadow: 0 2px #000000;
+}
+.furniture {
+   display: inline-block;
+    padding-top: 50px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-image: url('brain.JPG');
+	background-position: center top;
+	background-size: cover;
+	border: 5px solid white;
+	text-shadow: 0 2px #000000;
+}
+.paint {
+   display: inline-block;
+    padding-top: 50px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-image: url('sae.JPG');
+	background-position: center top;
+	background-size: cover;
+	border: 5px solid white;
+	text-shadow: 0 2px #000000;
+}
+.ceramics {
+   display: inline-block;
+    padding-top: 50px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-image: url('pot.JPG');
+	background-position: center top;
+	background-size: center;
+	border: 5px solid white;
+	text-shadow: 0 2px #000000;
+}
+.design {
+   display: inline-block;
+    padding-top: 50px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-image: url('drink.JPG');
+	background-position: center center;
+	background-size: cover;
+	border: 5px solid white;
+	text-shadow: 0 2px #000000;
+}
+
+	/* combos */
+
+ul.contact-info {
+	position: absolute;
+	left: 200px;
+	top:  200px;
+	color: white;
+	border: none;
+	font-size: 20px;
+}
+
+p.foot {
+	font-size: 15px;
+	display: block;
+	text-align: right;
+}
